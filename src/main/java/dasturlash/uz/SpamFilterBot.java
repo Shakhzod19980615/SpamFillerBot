@@ -22,7 +22,7 @@ public class SpamFilterBot extends TelegramLongPollingBot {
     private String botToken;
 
     private final List<String> bannedWords = List.of(
-            "sex", "porn", "nude", "xxx", "18+", "click here", "hot girl");
+            "porn", "click here", "hot girl");
 
     @Override
     public void onUpdateReceived(Update update) {
